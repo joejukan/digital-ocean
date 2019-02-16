@@ -1,0 +1,6 @@
+lib/
+logs/
+node_modules/
+scripts/
+npm-debug.log
+.vscode/

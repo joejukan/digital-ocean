@@ -1,0 +1,34 @@
+{
+  "name": "@joejukan/digital-ocean",
+  "version": "0.0.0",
+  "description": "Digital Ocean Service",
+  "main": "lib/index",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-ts",
+    "build": "tsc",
+    "deploy": "node scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejukan/digital-ocean.git"
+  },
+  "keywords": [
+    "DNS",
+    "Updater"
+  ],
+  "author": "Joseph Eniojukan (https://github.com/joejukan)",
+  "license": "ISC",
+  "dependencies": {
+    "@joejukan/web-kit": "0.0.1",
+    "axios": "0.18.0",
+    "file-stream-rotator": "0.2.1"
+  },
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/node": "10.5.1",
+    "@types/jasmine": "2.8.8",
+    "jasmine-ts": "0.2.1",
+    "jasmine-spec-reporter": "4.2.1",
+    "sftp-upload": "1.0.0"
+  }
+}
